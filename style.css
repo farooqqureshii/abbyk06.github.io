@@ -2,7 +2,7 @@ body {
     background-color: rgb(255, 255, 246);
     font-family: "Lora", serif;
     margin:0;
-    padding-top: 7%;
+    padding-top: 8%;
     padding-left: 28%;
     padding-RIGHT: 28%;
     text-align: center;
@@ -83,13 +83,18 @@ footer {
     padding-bottom: 50%;
 }
 
+footer p {
+    margin: 0;
+    line-height: 1.1;
+}
+
 footer >a {
     text-decoration: none;
-    color: rgb(100, 100, 165);
+    color: rgb(99, 24, 55);
     transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
 }
 footer a:hover {
-    background-color: rgb(206, 189, 232);
+    background-color: rgb(226, 169, 193);
     transform: scale(1.05);
 }
 
