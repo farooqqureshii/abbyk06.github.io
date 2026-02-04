@@ -10,14 +10,12 @@ h1 > a{
     text-decoration: none;
     color: rgb(122, 38, 136);
     text-align: left;
-    font-weight: normal;
 }
 
 nav > a{
     text-decoration: none;
     color: rgb(100, 100, 165);
     text-align: left;
-    font-weight: normal;
 }
 
 main > a{
@@ -60,7 +58,7 @@ main > p > a {
     transition: color 0.5s ease, transform 0.5s ease;
 }
 
-nav > a,
+nav > div > a,
 main > a,
 main > p > a {
     text-decoration: none;
@@ -70,7 +68,7 @@ main > p > a {
     transition: background-color 0.5s ease, color 0.5s ease;
 }
 
-nav > a:hover,
+nav > div > a:hover,
 main > a:hover,
 main > p > a:hover {
     background-color: rgb(206, 189, 232); /* subtle highlight */
