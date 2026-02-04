@@ -10,6 +10,7 @@ h1 > a{
     text-decoration: none;
     color: rgb(122, 38, 136);
     text-align: left;
+    font-weight: normal;
 }
 
 nav > a{
